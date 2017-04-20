@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CreateProfile</title>
+</head>
+<body bgcolor="#1e90ff">
+<center>
+    <fieldset style="width:400px;background-color:#00bfff;">
+        <legend><h2>StudentRegistration</h2></legend>
+        <form action="./cfs" method="post">
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th><input type="text" name="fname" required="required"></th>
+                </tr>
+                <tr>
+                    <th>Middle Name Name</th>
+                    <th><input type="text" name="mname"></th>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <th><input type="text" name="lname" required="required"></th>
+                </tr>
+                <tr>
+                    <th>Guardian First Name</th>
+                    <th><input type="text" name="gfname" required="required"></th>
+                </tr>
+                <tr>
+                    <th>Guardian Middle Name</th>
+                    <th><input type="text" name="gmname"></th>
+                </tr>
+                <tr>
+                    <th>Guardian Last Name</th>
+                    <th><input type="text" name="glname" required="required"></th>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <th><input type="password" name="password" required="required"></th>
+                </tr>
+                <tr>
+                    <th>Admin</th>
+                    <th><select name="admin" required><option value="">---Select---</option><option value="Y">Yes</option><option value="N">No</option></select></th>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Create Profile">
+        </form>
+    </fieldset>
+</center>
+</body>
+</html>
